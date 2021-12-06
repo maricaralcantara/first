@@ -1,4 +1,7 @@
-# first
-tryyy
-this is a trial
-emergency fix after stashing
+# STARTER WEB PROJECT
+
+## Introduction
+
+## Purpose
+
+## How To Contribute 
