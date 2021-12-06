@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+	<head>
+		<script>
+			function getData()
+			{
+				xml = document.getElementById("xmldata");
+				students = xml.getElementsByTagName("student");
+				
+document.write(students[0].firstElementChild.nodeName<!doctype html>
+<html>
+	<head>
+		<script>
+			function getData()
+			{
+				xml = document.getElementById("xmldata");
+				students = xml.getElementsByTagName("student");
+				
+				document.write("Getting the firstChild/ElementChild of student node.<br><br>");
+				document.write(students[0].firstChild.nodeName + "<br>");
+				document.write(students[0].firstElementChild.nodeName);
+			}
+		</script>
+	</head>
+	<body onload="getData();">
+		<xml id="xmldata" style="display:none;">
+			<students>
+				<student id="20180602">
+					<name>John Dela Cruz</name>
+					<birthday>January 1, 1998</birthday>
+					<course>BSIT</course>
+				</student>	
+				<student id="20190818">
+					<name>Jane Santos</name>
+					<birthday>June 12, 1999</birthday>
+					<course>BSIT</course>
+				</student>
+				<student id="20170408">
+					<name>Ryan Reyes</name>
+					<birthday>May 8, 1997</birthday>
+					<course>BSIT</course>
+				</student>
+				<student id="20160701">
+					<name>Carlo Ople</name>
+					<birthday>July 1, 1996</birthday>
+					<course>BSIT</course>
+				</student>
+			</students>
+		</xml>
+	</body>
+</html><!doctype html>
+<html>
+	<head>
+		<script>
+			function getData()
+			{
+				xml = document.getElementById("xmldata");
+				
+				students = xml.getElementsByTagName("student");
+				
+				for(student of students)
+				{
+					name=getElementsByTagName("name");
+					document.write(names);
+					
+				}
+			}
+		</script>
+	</head>
+	<body onload="getData();">
+		<xml id="xmldata" style="display:none;">
+			<students>
+				<student id="20180602">
+					<name>John Dela Cruz</name>
+					<birthday>January 1, 1998</birthday>
+					<course>BSIT</course>
+				</student>	
+				<student id="20190818">
+					<name>Jane Santos</name>
+					<birthday>June 12, 1999</birthday>
+					<course>BSIT</course>
+				</student>
+				<student id="20170408">
+					<name>Ryan Reyes</name>
+					<birthday>May 8, 1997</birthday>
+					<course>BSIT</course>
+				</student>
+				<student id="20160701">
+					<name>Carlo Ople</name>
+					<birthday>July 1, 1996</birthday>
+					<course>BSIT</course>
+				</student>
+			</students>
+		</xml>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+);
+			}
+		</script>
+	</head>
+	<body onload="getData();">
+		<xml id="xmldata" style="display:none;">
+			<students>
+				<student id="20180602">
+					<name>John Dela Cruz</name>
+					<birthday>January 1, 1998</birthday>
+					<course>BSIT</course>
+				</student>	
+				<student id="20190818">
+					<name>Jane Santos</name>
+					<birthday>June 12, 1999</birthday>
+					<course>BSIT</course>
+				</student>
+				<student id="20170408">
+					<name>Ryan Reyes</name>
+					<birthday>May 8, 1997</birthday>
+					<course>BSIT</course>
+				</student>
+				<student id="20160701">
+					<name>Carlo Ople</name>
+					<birthday>July 1, 1996</birthday>
+					<course>BSIT</course>
+				</student>
+			</students>
+		</xml>
+	</body>
+</html>
